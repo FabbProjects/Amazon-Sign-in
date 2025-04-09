@@ -1,0 +1,111 @@
+form p,a{
+    font-size: 12px;
+  }
+ 
+ details a{
+  text-decoration: none;
+  color: rgb(15, 99, 172);
+ }
+ details a:hover{
+  color: brown;
+  text-decoration: underline;
+ }
+ .atag{
+  text-decoration: none;
+  color: rgb(15, 99, 172);
+
+ }
+ .atag:hover{
+  text-decoration: underline;
+  color: brown;
+ }
+ .tag2 a{
+  color: rgb(15, 99, 172);
+ }
+ .tag2 a:hover{
+  color: brown;
+ }
+ 
+ .img{
+  text-align: center;
+ }
+ label{
+  font-size: 12px;
+  font-weight:700;
+ }
+ legend{
+  font-weight: 400;
+  font-size: 30px;
+ }
+ .card-body{
+  padding: 30px;
+ 
+ }
+ .inputbox{
+  border-radius: 3px;
+  border:1px solid rgb(181, 175, 175);
+  padding: 2px;
+ }
+ .inputbox:focus{
+  border: 2px solid transparent;
+
+box-shadow: 0 0 10px 4px rgba(7, 163, 254, 0.5);
+outline: none; 
+  
+
+ }
+ .line-co{
+  width:23rem;
+  margin:0 auto ;
+ }
+ .text{
+  color: #a39c9c;
+  font-size: 12px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ .line{
+  flex-grow: 1;
+  height: 1px;
+  background-color: lightgray;
+  margin: 0 10px;
+ }
+ .box3 button{
+  text-align: center;
+  background-color: white;
+  font-size: 12px;
+  box-shadow: 0 2px 5px rgb(190, 181, 181);
+  transition: transform 0.3s, box-shadow 0.3s;
+ }
+ .footer{
+  align-items: center;
+  background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(207, 192, 192, 0.197) 100%);
+ }
+ .container table{
+  /* align-items: center; */
+  display: flex; /* Use flexbox to center content */
+justify-content: center; /* Horizontally center the container */
+padding-top: 20px;
+  
+ }
+ .table1 td{
+  font-size: 12px;
+  padding: 10px;
+ }
+ .table1 a{
+  text-decoration: none;
+ }
+ 
+ .country-code{
+border-radius: 4px;
+width: 50px;
+height: 30px;
+
+ }
+ .phone-input{
+  display: flex;
+  gap: 6px;
+ }
